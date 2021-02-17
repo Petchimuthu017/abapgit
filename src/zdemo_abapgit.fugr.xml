@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>function group for ABAP Git</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZDEMO_ABAPGITTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZDEMO_ABAPGIT</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>Z_XX_DEMO_ABAPGIT</FUNCNAME>
+     <SHORT_TEXT>Function modele for ABAP Git</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_INPUT</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>CHAR10</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EV_OUTPUT</PARAMETER>
+       <REFERENCE>X</REFERENCE>
+       <TYP>CHAR20</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_INPUT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Input Paramter</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EV_OUTPUT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Output Value</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

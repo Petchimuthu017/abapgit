@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_XX_DEMO_ABAPGIT</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Demo Class for ABAP Git</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_XX_DEMO_ABAPGIT</CLSNAME>
+     <CMPNAME>GV_INST_NUM</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Global Instance Variable</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_XX_DEMO_ABAPGIT</CLSNAME>
+     <CMPNAME>GV_NUM</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Static global variable</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_XX_DEMO_ABAPGIT</CLSNAME>
+     <CMPNAME>INSTANCE_METHOD</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Instance Method</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_XX_DEMO_ABAPGIT</CLSNAME>
+     <CMPNAME>STATIC_METHOD</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Static Method</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
