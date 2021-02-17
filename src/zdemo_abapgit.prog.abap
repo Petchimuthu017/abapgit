@@ -8,3 +8,4 @@ REPORT ZDEMO_ABAPGIT.
 WRITE: /'test'.
 WRITE:/'Second line'.
 WRITE: / 'Bugfix'.
+WRITE: /'Bugfix2'.
